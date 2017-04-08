@@ -46,7 +46,25 @@ hr {
     font-weight: 900;
     letter-spacing: 2px;
 }
-
+.navbar-default .navbar-brand {
+    color: #071901;
+}
+.navbar-default {
+   background-color: rgba(255,255,63,0.7);
+   border: none;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ecfee7;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(255,255,63,0.3);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1b6402;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:none;
+}
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
